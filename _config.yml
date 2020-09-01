@@ -1,0 +1,13 @@
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+  -
+    scope:
+      path: "blog"
+      type: "pages" # previously `page` in Jekyll 2.2.
+    values:
+      layout: "post" # overrides previous default layout
